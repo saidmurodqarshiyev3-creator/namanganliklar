@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #202020;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  padding-top: 15px;
+  background: #f5f5f5;
+}
+
+.top-header {
+  height: 55px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.logo {
+  width: 300px;
+  background-color: #ffffff;
+  width: 320px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.currency {
+  display: flex;
+  gap: 15px;
+
+  font-size: 12px;
+  color: #295091;
+}
+
+.currency b {
+  color: #555;
+}
+
+.search {
+  width: 22px;
+  margin-left: auto;
+  background-color: white;
+}
+
+select {
+  border: none;
+  background: white;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+.subscribe {
+  width: 146px;
+  height: 40px;
+  background-color: #1e96c8;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  width: 1200px;
+  background: white;
+  border-radius: 5px;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.big-banner {
+  width: 1200px;
+  height: 99px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.covid {
+  height: 133px;
+  background: #f6f6f9;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 50px;
+}
+
+.covid-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 300px;
+}
+
+.covid-title img {
+  width: 43px;
+  height: 45px;
+}
+
+.covid-title p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.covid-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.line1 {
+  width: 2px;
+  height: 74px;
+  background-color: #eb5569;
+}
+.line2 {
+  width: 2px;
+  height: 49px;
+  background-color: #f4ccd1;
+}
+.line3 {
+  width: 2px;
+  height: 49px;
+  background-color: #f4ccd1;
+}
+.covid-item img {
+  width: 43px;
+  height: 45px;
+}
+
+.covid-item p {
+  font-size: 20px;
+  color: #777;
+}
+
+.covid-item b {
+  font-size: 28px;
+}
+.card {
+  width: 386px;
+  height: 550px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 23px 20px 23px 25px;
+  color: black;
+  font-size: 18px;
+  background-color: #f6f6f9;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.rasm img {
+  margin-top: 89px;
+  margin-bottom: 36px;
+}
+.texts small {
+  color: #7688a4;
+}
+.sec-1 span {
+  font-size: 18px;
+}
+hr {
+  width: 346px;
+  height: 4px;
+  background-color: #e4e4e4;
+  border: none;
+  margin-top: 14px;
+  margin-bottom: 18px;
+}
+.sec-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.rasm2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.hr hr {
+  width: 794px;
+  height: 2px;
+}
+.sec2-cards {
+  display: flex;
+  gap: 20px;
+}
+.cards h2 {
+  margin-top: 12px;
+  margin-bottom: 13px;
+}
+.mini-card {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+  margin-top: 18px;
+}
+.mini-text p {
+  margin-top: 8px;
+}
+.data {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+.but {
+  font-size: 17px;
+  width: 211px;
+  height: 42px;
+  background-color: #295093;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 264px;
+  margin-top: 41px;
+}
+footer {
+  margin-top: 40px;
+  background-color: #295093;
+}
+.sec3 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer1 {
+  display: flex;
+
+  gap: 17px;
+}
+.sec3 .footer-h3 {
+  background-color: #133c82;
+  border-radius: 5px;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  width: 194px;
+  height: 38px;
+  padding: 11px 12px 6px 9px;
+}
+.footer-h3 h3 {
+  font-size: 16px;
+  color: white;
+}
+.sec3 p {
+  font-size: 14px;
+  color: white;
+  margin-top: 31px;
+}
+.sec3 button {
+  width: 132px;
+  height: 38px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #295093;
+  margin-top: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.sec3 {
+  display: flex;
+  gap: 115px;
+  margin-top: 12px;
+}
+.chiziq hr {
+  background-color: #133c82;
+  width: 1200px;
+  height: 3px;
+  border: none;
+}
+.sec3 span {
+  font-size: 14px;
+  color: white;
+}
+.sec3 p {
+  font-size: 14px;
+  color: white;
+}
+.sec3 strong {
+  font-size: 14px;
+  color: white;
+}
